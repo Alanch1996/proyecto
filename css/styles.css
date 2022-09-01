@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Ubuntu:wght@300;500;700&display=swap');
+/* <!---reset---> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', ;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* <!---body---> */
+ body{
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    font-size: 18px;
+ }
+/* body index */
+ .bindex {
+ background-image: url("../imagenes/fondo\ de\ mi\ proyecto.webp");
+ background-size: cover ;
+ }
+ /* body pag nosotros */
+
+.bnosotros{
+    background-color: bisque;
+    height: 100vh;
+    display: grid;
+    
+}
+.texto_historia {
+    font-size: 1.3rem;
+}
+.texto_historia:hover{
+    width: 100%;
+    background-color: white;
+    transition: 1s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+p:hover {
+background-color: beige}
+/* imagenes */
+img{
+    width:30vw;
+    height: 25vh;
+}
+/* body de pages niños y niñas */
+   .bniñxs{
+    background-image: url("../imagenes/fondo\ de\ mi\ proyecto.webp");
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+   
+}
+/* body contacto*/
+.bmenu {
+    height: 100vh;
+    display: grid;
+    background-image: url("../imagenes/fc.png");
+ }
+/* footer */
+ .pie { 
+    padding-top: 20px;
+ }
+ /* estilo al formulario */
+form  {
+   background-color: white;
+   padding: 40px;
+   box-shadow: 0 0 6px 0 rgb(055,055 ,055, 0.8);
+   border-radius: 10px;
+}   
+.form{
+    width: 100%;
+    margin: auto;
+    position: relative;
+} 
+.formc {
+    position: relative;
+   
+}
+.tituloform { 
+    text-align: center;
+    color: black;
+}
+/* estilo a info page contact */
+
+.info { 
+    text-align: center;
+}
+.accordion-item {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 6px 0 rgb(055,055 ,055, 0.8);
+    border-radius: 10px;
+    ;
+ }
+/* media contact */
+ @media (max-width:576px) {
+    
+    .tituloform {
+       padding-top: 10px;
+}
+.bmenu{
+   background: lightsalmon;
+ }
+    footer {
+      padding-top: 3rem;
+    }
+
+}
