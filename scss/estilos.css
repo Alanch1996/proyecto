@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Ubuntu:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa";
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  font-size: 18px;
+  background-image: url("../imagenes/fc.png");
+}
+
+img {
+  width: 30vw;
+  height: 25vh;
+}
+
+.bmenu {
+  height: 100vh;
+  display: grid;
+  background-image: url("../imagenes/fc.png");
+}
+
+article .titulo {
+  font-size: 3rem;
+  font-family: "Comfortaa";
+}
+article .parrafo {
+  font-size: 2rem;
+  font-family: "Comfortaa";
+}
+
+.acordion .info {
+  text-align: center;
+}
+.acordion .accordion-item {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 0 6px 0 rgba(55, 55, 55, 0.8);
+  border-radius: 10px;
+}
+
+form {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 0 6px 0 rgba(55, 55, 55, 0.8);
+  border-radius: 10px;
+}
+form .form {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+form .formc {
+  position: relative;
+}
+form .tituloform {
+  text-align: center;
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .tituloform {
+    padding-top: 10px;
+  }
+  .bmenu {
+    background: lightsalmon;
+  }
+  footer {
+    padding-top: 3rem;
+  }
+}/*# sourceMappingURL=estilos.css.map */

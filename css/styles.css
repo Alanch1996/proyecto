@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Comfortaa', ;
+    font-family:'Comfortaa' ;
     font-family: 'Ubuntu', sans-serif;
 }
 /* <!---body---> */
@@ -53,59 +53,9 @@ img{
     display: grid;
    
 }
-/* body contacto*/
-.bmenu {
-    height: 100vh;
-    display: grid;
-    background-image: url("../imagenes/fc.png");
- }
+
 /* footer */
  .pie { 
     padding-top: 20px;
  }
- /* estilo al formulario */
-form  {
-   background-color: white;
-   padding: 40px;
-   box-shadow: 0 0 6px 0 rgb(055,055 ,055, 0.8);
-   border-radius: 10px;
-}   
-.form{
-    width: 100%;
-    margin: auto;
-    position: relative;
-} 
-.formc {
-    position: relative;
-   
-}
-.tituloform { 
-    text-align: center;
-    color: black;
-}
-/* estilo a info page contact */
 
-.info { 
-    text-align: center;
-}
-.accordion-item {
-    background-color: white;
-    padding: 40px;
-    box-shadow: 0 0 6px 0 rgb(055,055 ,055, 0.8);
-    border-radius: 10px;
-    ;
- }
-/* media contact */
- @media (max-width:576px) {
-    
-    .tituloform {
-       padding-top: 10px;
-}
-.bmenu{
-   background: lightsalmon;
- }
-    footer {
-      padding-top: 3rem;
-    }
-
-}

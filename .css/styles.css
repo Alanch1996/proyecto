@@ -1,0 +1,11 @@
+form {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 0 6px 0 55, 55, 55, 8;
+  border-radius: 10px; }
+  form .formc {
+    width: 100%;
+    height: auto;
+    position: relative; }
+  form .formc {
+    position: relative; }
