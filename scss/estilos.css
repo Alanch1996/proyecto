@@ -1,4 +1,17 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Ubuntu:wght@300;500;700&display=swap");
+.card--fondo {
+  background-color: lightblue;
+}
+
+.card--fondo2 {
+  background-color: pink;
+}
+
+.card--fondo3 {
+  background-color: #040529;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,17 +20,83 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-body {
-  display: flex;
-  height: 100vh;
-  flex-wrap: wrap;
-  font-size: 18px;
-  background-image: url("../imagenes/fc.png");
+.bindex {
+  background-image: url("../imagenes/fondo de mi proyecto.webp");
+  background-size: cover;
 }
 
-img {
-  width: 30vw;
-  height: 25vh;
+.titulo_bienvenida {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Comfortaa";
+  width: 100%;
+  transition: 1s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  color: #040529;
+}
+
+.titulo_bienvenida:hover {
+  background-color: white;
+}
+
+.bniñxs {
+  background-image: url("../imagenes/fondo de mi proyecto.webp");
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+}
+.bniñxs .titulo_ellas {
+  font-size: 4rem;
+  font-family: "Comfortaa";
+  width: 100%;
+  transition: 1s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  color: pink;
+}
+.bniñxs .titulo_ellas:hover {
+  background-color: white;
+}
+
+.bniñxs {
+  background-image: url("../imagenes/fondo de mi proyecto.webp");
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+}
+.bniñxs .titulo_niños {
+  font-size: 4rem;
+  font-family: "Comfortaa";
+  width: 100%;
+  transition: 1s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  color: lightblue;
+}
+.bniñxs .titulo_niños:hover {
+  background-color: rgb(194, 71, 71);
+}
+
+.bnosotros {
+  background-color: bisque;
+  height: 100vh;
+  display: grid;
+}
+.bnosotros .texto_historia {
+  font-size: 1.3rem;
+}
+.bnosotros .texto_historia:hover {
+  width: 100%;
+  background-color: white;
+  transition: 1s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+}
+.bnosotros p:hover {
+  background-color: beige;
 }
 
 .bmenu {
@@ -25,43 +104,77 @@ img {
   display: grid;
   background-image: url("../imagenes/fc.png");
 }
-
-article .titulo {
+.bmenu article .titulo {
   font-size: 3rem;
   font-family: "Comfortaa";
 }
-article .parrafo {
+.bmenu article .parrafo {
   font-size: 2rem;
   font-family: "Comfortaa";
+  width: 100%;
+  transition: 1s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
 }
-
-.acordion .info {
+.bmenu .parrafo:hover {
+  background-color: beige;
+}
+.bmenu .acordion .info {
   text-align: center;
 }
-.acordion .accordion-item {
+.bmenu form, .bmenu .acordion .accordion-item {
   background-color: white;
   padding: 40px;
   box-shadow: 0 0 6px 0 rgba(55, 55, 55, 0.8);
   border-radius: 10px;
 }
-
-form {
-  background-color: white;
-  padding: 40px;
-  box-shadow: 0 0 6px 0 rgba(55, 55, 55, 0.8);
-  border-radius: 10px;
-}
-form .form {
+.bmenu form .form, .bmenu .acordion .accordion-item .form {
   width: 100%;
   margin: auto;
   position: relative;
 }
-form .formc {
+.bmenu form .formc, .bmenu .acordion .accordion-item .formc {
   position: relative;
 }
-form .tituloform {
+.bmenu form .tituloform, .bmenu .acordion .accordion-item .tituloform {
   text-align: center;
   color: black;
+}
+
+footer {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+  height: auto;
+}
+footer .fa-instagram {
+  font-size: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+footer .fa-instagram:hover {
+  color: rgb(160, 81, 94);
+}
+footer .fa-whatsapp {
+  font-size: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+footer .fa-whatsapp:hover {
+  color: green;
+}
+footer .fa-facebook {
+  font-size: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+footer .fa-facebook:hover {
+  color: blue;
 }
 
 @media (max-width: 576px) {

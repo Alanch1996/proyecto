@@ -1,0 +1,11 @@
+$mapa: (
+    fondo:lightblue,
+    fondo2: pink ,
+    fondo3: #040529,
+);
+@each $fondo, $color in $mapa {
+    .card--#{$fondo} {
+        background-color: $color;
+    }
+    
+}

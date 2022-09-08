@@ -1,0 +1,18 @@
+.bnosotros{
+    background-color: bisque;
+    height: 100vh;
+    display: grid;
+          .texto_historia {
+        font-size: 1.3rem;
+    }
+          .texto_historia:hover{
+        width: 100%;
+        background-color: white;
+        transition: 1s;
+        transition-property: all;
+        transition-timing-function: ease-in-out;
+    }
+    p:hover {
+        background-color: beige}
+    
+}

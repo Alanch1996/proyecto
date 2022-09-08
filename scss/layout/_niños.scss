@@ -1,0 +1,18 @@
+.bniñxs{
+    background-image: url("../imagenes/fondo\ de\ mi\ proyecto.webp");
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+ .titulo_niños {
+    font-size: 4rem;
+    font-family: $fontComfortaa;
+    width: 100%;
+    transition: 1s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;  
+    color: map-get($mapa, $key:fondo );
+ }  
+ .titulo_niños:hover{
+    background-color: rgb(194, 71, 71);
+ }
+}

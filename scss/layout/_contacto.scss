@@ -1,0 +1,52 @@
+
+    .bmenu {
+        height: 100vh;
+        display: grid;
+        background-image: url("../imagenes/fc.png");
+        article {
+            .titulo {
+                font-size: 3rem;
+                font-family: $fontComfortaa;
+            }
+            .parrafo{
+                font-size: 2rem;
+                font-family: $fontComfortaa;
+                width: 100%;
+                transition: 1s;
+                transition-property: all;
+                transition-timing-function: ease-in-out;  
+            }
+        }
+        .parrafo:hover{
+            background-color: beige;
+        }
+         .acordion {
+            .info { 
+                text-align: center;
+            }
+            .accordion-item {
+             @extend form ;
+             }
+         }
+         form  {
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 0 6px 0 rgb(055,055 ,055, 0.8);
+            border-radius: 10px;
+         
+            .form{
+                width: 100%;
+                margin: auto;
+                position: relative;
+            } 
+            .formc {
+                position: relative;
+               
+            }
+            .tituloform { 
+                text-align: center;
+                color: black;
+            }
+        }
+         
+    }

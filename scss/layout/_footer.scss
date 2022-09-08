@@ -1,0 +1,22 @@
+footer{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    .fa-instagram {
+        @include redes ($ig);
+    }
+    .fa-whatsapp {
+        @include redes ($wsp);
+    }
+    .fa-facebook {
+        @include redes ($fb)  ; 
+      }
+
+}
+
