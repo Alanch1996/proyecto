@@ -1,0 +1,14 @@
+@media (max-width: 576px) { 
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+}
