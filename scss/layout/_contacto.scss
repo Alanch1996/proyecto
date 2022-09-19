@@ -5,16 +5,11 @@
         background-image: url("../imagenes/fc.png");
         article {
             .titulo {
-                font-size: 3rem;
-                font-family: $fontComfortaa;
+             @extend .titulo_bienvenida ; 
             }
+          
             .parrafo{
-                font-size: 2rem;
-                font-family: $fontComfortaa;
-                width: 100%;
-                transition: 1s;
-                transition-property: all;
-                transition-timing-function: ease-in-out;  
+                @extend .titulo_bienvenida;
             }
         }
         .parrafo:hover{

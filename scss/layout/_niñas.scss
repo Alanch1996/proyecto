@@ -3,6 +3,7 @@
     background-size: cover;
     height: 100vh;
     display: grid;
+  } 
    .titulo_ellas {
     font-size: 4rem;
     font-family: $fontComfortaa;
@@ -11,11 +12,12 @@
     transition-property: all;
     transition-timing-function: ease-in-out;  
     color: map-get($mapa, $key:fondo2 );
- }  
+ } 
+
  .titulo_ellas:hover{
-    background-color: white ;
+   background-color: white ;
  }
-}
+
 .img_niñex {border: 1px solid #ddd;
    border-radius: 4px;
    padding: 5px;

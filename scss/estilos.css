@@ -25,7 +25,7 @@
   background-size: cover;
 }
 
-.titulo_bienvenida {
+.titulo_bienvenida, .bmenu article .parrafo, .bmenu article .titulo {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -38,7 +38,7 @@
   color: #040529;
 }
 
-.titulo_bienvenida:hover {
+.titulo_bienvenida:hover, .bmenu article .parrafo:hover, .bmenu article .titulo:hover {
   background-color: white;
 }
 
@@ -48,7 +48,8 @@
   height: 100vh;
   display: grid;
 }
-.bniñxs .titulo_ellas {
+
+.titulo_ellas {
   font-size: 4rem;
   font-family: "Comfortaa";
   width: 100%;
@@ -57,7 +58,8 @@
   transition-timing-function: ease-in-out;
   color: pink;
 }
-.bniñxs .titulo_ellas:hover {
+
+.titulo_ellas:hover {
   background-color: white;
 }
 
@@ -72,13 +74,7 @@
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-.bniñxs {
-  background-image: url("../imagenes/fondo de mi proyecto.webp");
-  background-size: cover;
-  height: 100vh;
-  display: grid;
-}
-.bniñxs .titulo_niños {
+.titulo_niños {
   font-size: 4rem;
   font-family: "Comfortaa";
   width: 100%;
@@ -87,8 +83,13 @@
   transition-timing-function: ease-in-out;
   color: lightblue;
 }
-.bniñxs .titulo_niños:hover {
+
+.titulo_niños:hover {
   background-color: rgb(194, 71, 71);
+}
+
+.img_niñxs:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 .bnosotros {
@@ -114,18 +115,6 @@
   height: 100vh;
   display: grid;
   background-image: url("../imagenes/fc.png");
-}
-.bmenu article .titulo {
-  font-size: 3rem;
-  font-family: "Comfortaa";
-}
-.bmenu article .parrafo {
-  font-size: 2rem;
-  font-family: "Comfortaa";
-  width: 100%;
-  transition: 1s;
-  transition-property: all;
-  transition-timing-function: ease-in-out;
 }
 .bmenu .parrafo:hover {
   background-color: beige;
